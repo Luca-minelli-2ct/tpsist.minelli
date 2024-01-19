@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <style>
+    #container {
+      width: 300px;
+      height: 300px;
+      background-color: green;
+      position: relative;
+    }
+  </style>
+</head>
+
+<body>
+<div id="container">
+  <p>inserisci un numero, quando premerai il bottone verrano stampati in successione dei numeri da 1 fino al numero dato ed anche il numero che corrisponde al suo 10%.</p>
+  <input type="text" id="inputnumerico">
+  <button id="generanumero" onclick="myfunction()">stampa in successione i numeri</button>
+  <p id="output"></p>
+</div>
+  <script>
+    function myfunction() {
+      var numeroInserito = 
+       parseInt(document.getElementById("inputnumerico").value);
+      var diecipercento;
+      var output = document.getElementById("output");
+      output.innerHTML = ""; 
+
+      for (var i = 1; i <= numeroInserito; i++) {
+        output.innerHTML += i + " ";
+      }
+
+      dieciPercento = numeroInserito * 0.1;
+      output.innerHTML += "<br>10% del numero inserito: " + dieciPercento;
+    }
+  </script>
+
+
+</body></html>
