@@ -1,0 +1,46 @@
+<html><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generatore di Div</title>
+  <style>
+    #container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .generatedDiv {
+      width: 10px;
+      height: 10px;
+      border: 1px solid black;
+      margin: 2px;
+      background-color: red;
+    }
+  </style>
+</head>
+<body>
+
+  <label for="numeroDiv">Inserisci il numero di quadrati da generare:</label>
+  <input type="number" id="numeroDiv" min="1" value="1">
+  <button onclick="generaDiv()">Genera quadrati</button>
+
+  <div id="container"><div class="generatedDiv"></div></div>
+
+  <script>
+    function generaDiv() {
+      var numeroDiv = document.getElementById("numeroDiv").value;
+      var divContainer = document.getElementById("container");
+      divContainer.innerHTML = "";
+
+      for (var i = 0; i < numeroDiv; i++) {
+        var nuovoDiv = document.createElement("div");
+        nuovoDiv.className = "generatedDiv";
+        divContainer.appendChild(nuovoDiv);
+      }
+    }
+  </script>
+
+
+
+</body></html>
+
+
