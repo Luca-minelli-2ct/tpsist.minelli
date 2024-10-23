@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Errori Software e Conseguenze</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .item {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 10px;
+            width: 300px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .photo {
+            height: 150px;
+            background-size: cover;
+            background-position: center;
+        }
+        .description {
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Errori Software e Conseguenze</h1>
+    <div class="container">
+        <div class="item">
+            <div class="photo" style="background-image: url('https://www.hwupgrade.it/i/n/ariane-6-9-luglio-6-24_720.jpg');"></div>
+            <div class="description">
+                <h2>Circa 370 milioni di dollari</h2>
+                <p>Il lancio inaugurale del razzo Ariane 5 dell'Agenzia Spaziale Europea fallì a causa di un bug nel software. Ciò provocò la distruzione del razzo e la perdita di carichi utili scientifici di alto valore.</p>
+            </div>
+        </div>
+        <div class="item">
+            <div class="photo" style="background-image: url('https://www.passioneastronomia.it/wp-content/uploads/2024/09/375_mco_mapping-1024x931.jpg');"></div>
+            <div class="description">
+                <h2>Circa 193 milioni di dollari</h2>
+                <p>Il software del Mars Climate Orbiter utilizzava unità imperiali invece di unità metriche. Questo errore causò la distruzione della sonda spaziale.</p>
+            </div>
+        </div>
+        <div class="item">
+            <div class="photo" style="background-image: url('https://cdn.wallstreetitalia.com/2_L28qjzswxdPZyXfFHgGabai08=/1280x720/smart/https://www.wallstreetitalia.com/app/uploads/2012/08/39486.jpg');"></div>
+            <div class="description">
+                <h2>Circa 440 milioni di dollari in 45 minuti</h2>
+                <p>Un aggiornamento del software difettoso di Knight Capital causò milioni di operazioni di borsa errate, portando a enormi perdite finanziarie.</p>
+            </div>
+        </div>
+        <div class="item">
+            <div class="photo" style="background-image: url('https://import.viva64.com/docx/blog/0438_Therac_25/image3.png');"></div>
+            <div class="description">
+                <h2>Diverse vite umane</h2>
+                <p>Therac-25 somministrava dosi letali di radiazioni a causa di bug nel software. Almeno 5 persone morirono a causa di sovraesposizione.</p>
+            </div>
+        </div>
+        <div class="item">
+            <div class="photo" style="background-image: url('https://www.aerospacecue.it/wp-content/uploads/2016/12/missile-sistema-binario-close-up-engineering1.jpg');"></div>
+            <div class="description">
+                <h2>Perdita di vite e milioni di dollari</h2>
+                <p>Un errore di arrotondamento nel sistema del Patriot Missile portò alla morte di 28 soldati americani e a una perdita di fiducia nella tecnologia di difesa.</p>
+            </div>
+        </div>
+        <div class="item">
+            <div class="photo" style="background-image: url('https://n3rdcore.it/wp-content/uploads/2020/01/millennium-bug-2.jpg');"></div>
+            <div class="description">
+                <h2>Circa 100 miliardi di dollari</h2>
+                <p>Il "Millennium Bug" richiese enormi investimenti per evitare il collasso dei sistemi informatici, sebbene non causò gravi danni.</p>
+            </div>
+        </div>
+        <div class="item">
+            <div class="photo" style="background-image: url('https://quisirisolve.com/wp-content/uploads/2024/06/photo_6017285569115177340_y.jpg');"></div>
+            <div class="description">
+                <h2>Circa 475 milioni di dollari</h2>
+                <p>Un bug nei processori Intel Pentium causava errori di calcolo. Intel dovette ritirare i processori difettosi, subendo enormi costi.</p>
+            </div>
+        </div>
+        <div class="item">
+            <div class="photo" style="background-image: url('https://www.shop4tesla.com/cdn/shop/articles/tesla-model-s-uberschlagt-sich-und-brennt-das-video-einer-versicherung-verwirrt-861195.jpg?v=1661943731');"></div>
+            <div class="description">
+                <h2>Perdita di un'auto</h2>
+                <p>Un aggiornamento software del Tesla Model S causò il blocco dei freni e la perdita completa di un'auto, portando a rischi per la sicurezza.</p>
+            </div>
+        </div>
+        <div class="item">
+            <div class="photo" style="background-image: url('https://external-preview.redd.it/at-t-outage-caused-by-software-update-not-malicious-intent-v0-ihn7AjnK019euUsc885cn6YaRihLDvtkO17q3-47Z70.jpg?auto=webp&s=c8cb53c8a4104b87cb939f76715c1c1546c18c05');"></div>
+            <div class="description">
+                <h2>Decine di milioni di dollari</h2>
+                <p>Un errore nel sistema di commutazione di AT&T portò a un blocco di 9 ore, causando milioni di chiamate interrotte.</p>
+            </div>
+        </div>
+        <div class="item">
+            <div class="photo" style="background-image: url('https://i0.wp.com/www.wetravel.biz/wp-content/uploads/2019/03/IMG6012-Boeing-737-8-MAX-N8704Q-Boeing-company-s-777x437.jpg?fit=777%2C437&ssl=1');"></div>
+            <div class="description">
+                <h2>Oltre 20 miliardi di dollari, molte vite perse</h2>
+                <p>Il sistema MCAS del Boeing 737 Max causò incidenti mortali, portando alla morte di 346 persone e a enormi perdite economiche per Boeing.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
