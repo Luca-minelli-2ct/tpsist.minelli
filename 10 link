@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link Utili</title>
+    <style>
+        #linkutili {
+            width: 400px;
+            background-color: rgb(231, 228, 228);
+            border: 1px solid black;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+<div id="linkutili">
+    <h2>I miei siti preferiti</h2>
+    
+    <p>
+        1. <strong>HTML Tutorial</strong>: 
+        <a href="https://www.w3schools.com/html/default.asp">Il mio libro di HTML</a>
+    </p>
+    <p>
+        2. <strong>Marco Palladino</strong>: 
+        <a href="https://www.marcopalladino.it">Sito del mio prof.</a>
+    </p>
+    <p>
+        3. <strong>MDN Web Docs</strong>: 
+        <a href="https://developer.mozilla.org/it/">Documentazione per sviluppatori web</a>
+    </p>
+    <p>
+        4. <strong>FreeCodeCamp</strong>: 
+        <a href="https://www.freecodecamp.org">Impara a programmare gratis</a>
+    </p>
+    <p>
+        5. <strong>Codecademy</strong>: 
+        <a href="https://www.codecademy.com">Corsi interattivi di programmazione</a>
+    </p>
+    <p>
+        6. <strong>Stack Overflow</strong>: 
+        <a href="https://stackoverflow.com">Forum per programmatori</a>
+    </p>
+    <p>
+        7. <strong>GitHub</strong>: 
+        <a href="https://github.com">Hosting per progetti di codice</a>
+    </p>
+    <p>
+        8. <strong>Coursera</strong>: 
+        <a href="https://www.coursera.org">Corsi online da università</a>
+    </p>
+    <p>
+        9. <strong>Udemy</strong>: 
+        <a href="https://www.udemy.com">Corsi su vari argomenti</a>
+    </p>
+    <p>
+        10. <strong>CSS Tricks</strong>: 
+        <a href="https://css-tricks.com">Risorse e tutorial su CSS</a>
+    </p>
+</div>
+</body>
+</html>
