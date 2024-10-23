@@ -1,0 +1,50 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Prima pagina con CSS</title>
+
+    <style>
+        body {
+            background-color: #83eaf8;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        #scatola1, #scatola2, #scatola3, #scatola4, #scatola5 {
+            padding: 15px;
+            margin: 10px; 
+            height: auto; 
+            width: 250px; 
+            border: 2px solid black;
+            background-color: rgb(245, 104, 104);
+            border-radius: 5px; 
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+        }
+    </style>
+</head>
+<body>
+    <h1>Primo esercizio con CSS</h1>
+    <div id="scatola1">
+        "La scienza è un modo di pensare molto più che un corpo di conoscenze." - Carl Sagan
+    </div>
+
+    <div id="scatola2">
+        "Non possiamo risolvere i problemi con lo stesso livello di pensiero che abbiamo usato quando li abbiamo creati." - Albert Einstein
+    </div>
+
+    <div id="scatola3">
+        "La natura non è un luogo da visitare. È casa nostra." - Gary Snyder
+    </div>
+
+    <div id="scatola4">
+        "La scienza è il miglior strumento che abbiamo per capire il mondo." - Neil deGrasse Tyson
+    </div>
+
+    <div id="scatola5">
+        "Il progresso della scienza è la progressiva eliminazione dell'ignoranza." - Albert Einstein
+    </div>
+</body>
+</html>
