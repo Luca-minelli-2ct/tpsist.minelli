@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Prima pagina con css</title>
+
+<style>
+    body{
+         background-color:#83eaf8;
+    }
+     #scatola1{
+        padding: 5px;
+        margin:10px;
+        height: 200px;
+        width: 200px;
+        border: 2px solid black;
+        background-color: rgb(245, 104, 104);
+     }
+     #scatola2{
+        margin:10px;
+        height: 200px;
+        width: 200px;
+        border: 2px solid black;
+        background-color: rgb(245, 104, 104);
+     }
+     #scatola3{
+        margin:10px;
+        height: 200px;
+        width: 200px;
+        border: 2px solid black;
+        background-color: rgb(245, 104, 104);
+     }
+     #scatola4{
+        margin:10px;
+        height: 200px;
+        width: 200px;
+        border: 2px solid black;
+        background-color: rgb(245, 104, 104);
+     }
+     #scatola5{
+        margin:10px;
+        height: 200px;
+        width: 200px;
+        border: 2px solid black;
+        background-color: rgb(245, 104, 104);
+     }
+
+
+</style>
+
+
+</head>
+<body>
+    <h1>Primo esercizio con CSS</h1>
+<div id="scatola1">
+    Quando su ci si butta lei,
+Si fa d'un triste colore di rosa
+Il bel fogliame.
+
+Strugge forre, beve fiumi,
+Macina scogli, splende,
+È furia che s'ostina, è l'implacabile,
+Sparge spazio, acceca mete,
+È l'estate e nei secoli
+Con i suoi occhi calcinanti
+Va della terra spogliando lo scheletro.
+</div>
+
+<div id="scatola2">
+    Vi arriva il poeta
+    E poi torna alla luce con i suoi canti
+    E li disperde
+    
+    Di questa poesia
+    Mi resta
+    Quel nulla
+    Di inesauribile segreto.
+</div>
+
+<div id="scatola3">
+    Chiuso fra cose mortali
+    (anche il cielo stellato finirà)
+    Perchè bramo Dio?
+</div>
+
+<div id="scatola4">
+    Come questa pietra
+    del S. Michele
+    così fredda
+    così dura
+    così prosciugata
+    così refrattaria
+    così totalmente
+    disanimata
+</div>
+
+<div id="scatola5">
+    Non ho voglia
+    di tuffarmi
+    in un gomitolo
+    di strade
+    
+    Ho tanta
+    stanchezza
+    sulle spalle
+    
+    Lasciatemi così
+    come una
+    cosa
+    posata
+    in un
+    angolo
+    e dimenticata
+    Qui
+    non si sente
+    altro
+    che il caldo buono
+    Sto
+    con le quattro
+    capriole
+    di fumo
+    del focolare.
+</div>
+
+</body>
+</html>
